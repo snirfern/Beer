@@ -1,0 +1,11 @@
+.statistics_chart_date_container{
+    text-align: center;
+    padding:50px;
+}
+.ticks{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -100px;
+    position: relative;
+    font-weight: 400;
+}

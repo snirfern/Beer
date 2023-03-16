@@ -1,0 +1,110 @@
+
+
+
+
+.inner-wrapper {
+    position: absolute;
+}
+
+.bubble {
+    background:#ffeb3bc2;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+}
+
+.bubble-sm {
+    z-index: 2000;
+    top: 30px;
+    height: 4px;
+    width: 4px;
+    left: 25%;
+    animation: bubbles-rise 3s infinite;
+}
+
+.bubble-sm1 {
+    z-index: 2000;
+    top: 30px;
+    height: 6;
+    width: 6px;
+    left: 35%;
+    animation: bubbles-rise 2.2s infinite;
+    animation-delay: 0.25s;
+}
+
+.bubble-sm2 {
+    z-index: 2000;
+    top: 30px;
+    height: 3px;
+    width: 3px;
+    left: 55%;
+    animation: bubbles-rise 2.5s infinite;
+    animation-delay: 0.15s;
+}
+
+.bubble-sm3 {
+    z-index: 2000;
+    top: 30px;
+    height: 8px;
+    width: 8px;
+    left: 50%;
+    animation: bubbles-rise 1.75s infinite;
+}
+
+.bubble-sm4 {
+    z-index: 2000;
+    top: 30px;
+    height: 2px;
+    width: 2px;
+    left: 65%;
+    animation: bubbles-rise 2.5s infinite;
+    animation-delay: 0.1s;
+}
+
+.bubble-sm5 {
+    z-index: 2000;
+    top: 30px;
+    height: 3px;
+    width: 3px;
+    left: 45%;
+    animation: bubbles-rise 2s infinite;
+    animation-delay: 0.1s;
+}
+
+.bubble-sm6 {
+    z-index: 2000;
+    top: 30px;
+    height: 6px;
+    width: 6px;
+    left: 40%;
+    animation: bubbles-rise 3s infinite;
+    animation-delay: 0.2s;
+}
+
+.bubble-md {
+    z-index: 2000;
+    top: 30px;
+    height: 3px;
+    width: 3px;
+    left: 15%;
+    animation: bubbles-rise 3.5s infinite;
+    animation-delay: 0.2s;
+}
+
+.bubble-md1 {
+    z-index: 2000;
+    top: 30px;
+    height: 3px;
+    width: 5px;
+    left: 60%;
+    animation: bubbles-rise 2s infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes bubbles-rise {
+    100% {
+        transform: translateY(-75px) scale(0.5);
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+}

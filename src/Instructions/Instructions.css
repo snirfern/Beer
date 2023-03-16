@@ -1,0 +1,25 @@
+.instructions_container {
+    padding: 10px 20px;
+}
+
+.instructions_card {
+   margin:60px 0;
+}
+
+.card_header_title{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card_actions_area{
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+}
+.instruction_actions_footer{
+    width:100%;
+    text-align: center;
+}
+.no_instructions_container{
+    padding:20px;
+}

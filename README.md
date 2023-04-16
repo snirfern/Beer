@@ -15,7 +15,7 @@ Enables saving recipes and important sheets for the cooking stage and followed s
 
 #Sensors
 
-Temperature
+Temperature,
 Alcohol
 
 

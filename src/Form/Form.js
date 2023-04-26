@@ -10,7 +10,6 @@ import * as React from "react";
 import { useEffect, useState } from "react";
 import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 import Avatar from "@mui/material/Avatar";
-import { uploadImage } from "../api/api";
 
 const textFieldProps = {
   fullWidth: true,
